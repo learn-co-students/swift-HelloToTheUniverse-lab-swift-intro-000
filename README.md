@@ -4,6 +4,8 @@
 
 > Keep your eyes on the stars, and your feet on the ground. -[Theodore Roosevelt](https://en.wikipedia.org/wiki/Theodore_Roosevelt)
 
+---
+
 Let's talk about how this course is organized. Every single piece of content on our platform is called a lesson. There are two types of lessons on Learn: READMEs and Labs.
 
 #### Labs
@@ -21,7 +23,11 @@ All of the lessons in this course are hosted on Github and they are open-sourced
 
 Once you're set up, watch the video below that explains how we go about solving coding labs on Learn. 
 
+# Instructions
+
 [![](http://img.youtube.com/vi/TJ2QLLy4pH0/0.jpg)](https://www.youtube.com/watch?v=TJ2QLLy4pH0 "Intro")
+
+If you prefer to read how to go through this lab (instead of a video), you can find detailed instructions [here](https://github.com/learn-co-curriculum/swift-HelloToTheUniverse-lab/blob/master/Detail.md)
 
 
 
