@@ -21,7 +21,7 @@ You'll know if a lesson on Learn is a lab by the actions the right column asks y
 
 Readings are lessons that only have instructional content. They provide context and exposition on a topic by breaking concepts down. Readings are how you learn enough to solve a lab.
 
-All of the lessons in this course are hosted on Github and they are open-sourced. Github is a platform that allows people to collaborate and do version control on their code. We won't cover the specifics but you can read more [here](https://guides.github.com/activities/hello-world/). The most important thing now is for you to get a GitHub account since without it, you won't be able to go through the rest of this course.  If you don't have one, make one [now](github.com). 
+All of the lessons in this course are hosted on GitHub and they are open-sourced. GitHub is a platform that allows people to collaborate and do version control on their code. We won't cover the specifics but you can read more [here](https://guides.github.com/activities/hello-world/). The most important thing now is for you to get a GitHub account since without it, you won't be able to go through the rest of this course.  If you don't have one, make one [now](github.com). 
 
 Once you're set up, watch the video below that explains how we go about solving coding labs on Learn. This lesson itself is a lab so follow along with the steps and solve your first lab on Learn!
 
@@ -33,3 +33,5 @@ If you prefer to read how to go through this lab (instead of a video), you can f
 
 
 <a href='https://learn.co/lessons/HelloToTheUniverse' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-HelloToTheUniverse-lab'>Hello to the Universe Lab</a> on Learn.co and start learning to code for free.</p>
