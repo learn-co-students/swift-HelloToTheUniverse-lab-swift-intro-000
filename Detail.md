@@ -226,7 +226,7 @@ Note: There are some labs that include tests (the one we just completed included
 
 * In order for Xcode to be able to communicate with Learn to let Learn know that the all of your tests passed when completing a lab, you need to type the following command in Terminal.
 
-`curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh`
+`bash <(curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh)`
 
 * After running the command above in terminal, you should be met with a message that states "You're all set - setup complete!" after going through any necessary steps of it asking you any questions.
 
