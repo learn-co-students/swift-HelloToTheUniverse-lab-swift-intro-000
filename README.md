@@ -37,6 +37,9 @@ You might notice that my terminal looks different than yours, especially that <3
 
 Typing that command in terminal will install a certain file on your machine which is setup to make your terminal application look like mine. I recommend you do this (as it's not just adding a <3 icon) but take note that by running this command it will override any customized bash_profile you might already have on your machine.
 
+Please Note you must reload your bash profile by typing the following in terminal
+`source ~/.bash_profile~
+
 # GitHub 
 
 All of the lessons in this course are hosted on GitHub and they are open-sourced. GitHub is a platform that allows people to collaborate and do version control on their code. We won't cover the specifics but you can read more [here](https://guides.github.com/activities/hello-world/). The most important thing now is for you to get a GitHub account since without it, you won't be able to go through the rest of this course.  If you don't have one, make one [now](github.com). 
@@ -52,3 +55,5 @@ If you prefer to read detailed instructions on how to complete this lab (instead
 
 
 <a href='https://learn.co/lessons/HelloToTheUniverse' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-HelloToTheUniverse-lab'>Hello to the Universe Lab</a> on Learn.co and start learning to code for free.</p>
