@@ -56,6 +56,5 @@ If you prefer to read detailed instructions on how to complete this lab (instead
 [![](http://img.youtube.com/vi/TJ2QLLy4pH0/0.jpg)](https://www.youtube.com/watch?v=TJ2QLLy4pH0 "Intro")
 
 
-<a href='https://learn.co/lessons/HelloToTheUniverse' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-HelloToTheUniverse-lab'>Hello to the Universe Lab</a> on Learn.co and start learning to code for free.</p>
