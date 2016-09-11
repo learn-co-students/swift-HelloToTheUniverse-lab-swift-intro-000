@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01AA8CD31D836FFA00BB38AF /* Pods_HelloToTheUniverse.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		01B045B01D84AAC000E0CAB2 /* Pods_HelloToTheUniverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */; };
 		5B59BC781D6E243800DFE0AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC771D6E243800DFE0AD /* AppDelegate.swift */; };
 		5B59BC7A1D6E243800DFE0AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC791D6E243800DFE0AD /* ViewController.swift */; };
 		5B59BC7D1D6E243800DFE0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B59BC7B1D6E243800DFE0AD /* Main.storyboard */; };
@@ -16,7 +18,6 @@
 		5B59BC981D6E259300DFE0AD /* GreetingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC971D6E259300DFE0AD /* GreetingTest.swift */; };
 		5B59BC9A1D6E25EF00DFE0AD /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC991D6E25EF00DFE0AD /* Greeting.swift */; };
 		9FFEAE55053964FAD68B1C1E /* Pods_HelloToTheUniverseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC3D087D168025579906000 /* Pods_HelloToTheUniverseTests.framework */; };
-		DA6ED7813F5BF67FA826F59D /* Pods_HelloToTheUniverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +30,26 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		01AA8CD41D836FFA00BB38AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				01AA8CD31D836FFA00BB38AF /* Pods_HelloToTheUniverse.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		01C1C25F1D850402004CBE28 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick/Quick.framework"; sourceTree = "<group>"; };
+		01C1C2611D850408004CBE28 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Pods/../build/Debug-iphoneos/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		01C1C2631D850720004CBE28 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "../../../Library/Developer/Xcode/DerivedData/HelloToTheUniverse-gckkbxecfacsqpeaarmxupdqrvmq/Build/Products/Debug-iphonesimulator/Nimble/Nimble.framework"; sourceTree = "<group>"; };
+		01C1C2651D850729004CBE28 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "../../../Library/Developer/Xcode/DerivedData/HelloToTheUniverse-gckkbxecfacsqpeaarmxupdqrvmq/Build/Products/Debug-iphonesimulator/Quick/Quick.framework"; sourceTree = "<group>"; };
+		01C1C2681D850A6A004CBE28 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Pods/../build/Debug-iphoneos/Quick/Quick.framework"; sourceTree = "<group>"; };
 		041991C3B38FBFE70861BE00 /* Pods-HelloToTheUniverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloToTheUniverse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloToTheUniverse/Pods-HelloToTheUniverse.debug.xcconfig"; sourceTree = "<group>"; };
 		0CD1D56E37B7857AD5A6C3B6 /* Pods-HelloToTheUniverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloToTheUniverse.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloToTheUniverse/Pods-HelloToTheUniverse.release.xcconfig"; sourceTree = "<group>"; };
 		16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloToTheUniverse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6ED7813F5BF67FA826F59D /* Pods_HelloToTheUniverse.framework in Frameworks */,
+				01B045B01D84AAC000E0CAB2 /* Pods_HelloToTheUniverse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +93,11 @@
 		03815CCC50B8449A4AE99CE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				01C1C2681D850A6A004CBE28 /* Quick.framework */,
+				01C1C2651D850729004CBE28 /* Quick.framework */,
+				01C1C2631D850720004CBE28 /* Nimble.framework */,
+				01C1C2611D850408004CBE28 /* Nimble.framework */,
+				01C1C25F1D850402004CBE28 /* Quick.framework */,
 				16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */,
 				9BC3D087D168025579906000 /* Pods_HelloToTheUniverseTests.framework */,
 			);
@@ -147,6 +172,7 @@
 				5B59BC721D6E243800DFE0AD /* Resources */,
 				E4A331761D21EF45AE9BAC5D /* [CP] Embed Pods Frameworks */,
 				67734CC69A3676169BB68492 /* [CP] Copy Pods Resources */,
+				01AA8CD41D836FFA00BB38AF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -467,6 +493,8 @@
 			baseConfigurationReference = 041991C3B38FBFE70861BE00 /* Pods-HelloToTheUniverse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = HelloToTheUniverse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverse;
@@ -479,6 +507,8 @@
 			baseConfigurationReference = 0CD1D56E37B7857AD5A6C3B6 /* Pods-HelloToTheUniverse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				INFOPLIST_FILE = HelloToTheUniverse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverse;
