@@ -13,9 +13,6 @@ import Foundation
 
 class Greeting {
     
-    
-    
-    
     // Copy and paste the helloUniverse() function here
     
     func helloUniverse() -> String {
