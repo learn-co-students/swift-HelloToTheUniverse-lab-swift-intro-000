@@ -40,7 +40,7 @@ You might notice that my terminal looks different than yours, especially that <3
 Typing that command in terminal will install a certain file on your machine which is setup to make your terminal application look like mine. I recommend you do this (as it's not just adding a <3 icon) but take note that by running this command it will override any customized bash_profile you might already have on your machine.
 
 Please Note you must reload your bash profile by typing the following in terminal
-`source ~/.bash_profile~
+`source ~/.bash_profile`
 
 ## GitHub 
 
