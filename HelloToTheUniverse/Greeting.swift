@@ -10,19 +10,15 @@ import Foundation
 
 
 
-
 class Greeting {
     
     
-    
-    
-    // Copy and paste the helloUniverse() function here
+
+    // We created the function for you!
     
     func helloUniverse() -> String {
         return "Hello Universe!"
     }
-    
-    
     
     
     

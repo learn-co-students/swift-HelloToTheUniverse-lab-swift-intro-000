@@ -15,8 +15,6 @@
 		5B59BC8D1D6E243800DFE0AD /* HelloToTheUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC8C1D6E243800DFE0AD /* HelloToTheUniverseTests.swift */; };
 		5B59BC981D6E259300DFE0AD /* GreetingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC971D6E259300DFE0AD /* GreetingTest.swift */; };
 		5B59BC9A1D6E25EF00DFE0AD /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC991D6E25EF00DFE0AD /* Greeting.swift */; };
-		9FFEAE55053964FAD68B1C1E /* Pods_HelloToTheUniverseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BC3D087D168025579906000 /* Pods_HelloToTheUniverseTests.framework */; };
-		DA6ED7813F5BF67FA826F59D /* Pods_HelloToTheUniverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,10 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		041991C3B38FBFE70861BE00 /* Pods-HelloToTheUniverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloToTheUniverse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloToTheUniverse/Pods-HelloToTheUniverse.debug.xcconfig"; sourceTree = "<group>"; };
-		0CD1D56E37B7857AD5A6C3B6 /* Pods-HelloToTheUniverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloToTheUniverse.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloToTheUniverse/Pods-HelloToTheUniverse.release.xcconfig"; sourceTree = "<group>"; };
-		16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloToTheUniverse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		251978D1FD141542A31A4732 /* Pods-HelloToTheUniverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloToTheUniverseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloToTheUniverseTests/Pods-HelloToTheUniverseTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B59BC741D6E243800DFE0AD /* HelloToTheUniverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloToTheUniverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B59BC771D6E243800DFE0AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B59BC791D6E243800DFE0AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,8 +40,6 @@
 		5B59BC8E1D6E243800DFE0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B59BC971D6E259300DFE0AD /* GreetingTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreetingTest.swift; sourceTree = "<group>"; };
 		5B59BC991D6E25EF00DFE0AD /* Greeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
-		752E51E02D1D00F3D6B2E3E5 /* Pods-HelloToTheUniverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloToTheUniverseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloToTheUniverseTests/Pods-HelloToTheUniverseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9BC3D087D168025579906000 /* Pods_HelloToTheUniverseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloToTheUniverseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6ED7813F5BF67FA826F59D /* Pods_HelloToTheUniverse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +54,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FFEAE55053964FAD68B1C1E /* Pods_HelloToTheUniverseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +63,6 @@
 		03815CCC50B8449A4AE99CE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				16D043D89C97891388C18C24 /* Pods_HelloToTheUniverse.framework */,
-				9BC3D087D168025579906000 /* Pods_HelloToTheUniverseTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,7 +73,6 @@
 				5B59BC761D6E243800DFE0AD /* HelloToTheUniverse */,
 				5B59BC8B1D6E243800DFE0AD /* HelloToTheUniverseTests */,
 				5B59BC751D6E243800DFE0AD /* Products */,
-				862EABF6E46B3060EFE5B9C9 /* Pods */,
 				03815CCC50B8449A4AE99CE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -123,17 +110,6 @@
 			path = HelloToTheUniverseTests;
 			sourceTree = "<group>";
 		};
-		862EABF6E46B3060EFE5B9C9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				041991C3B38FBFE70861BE00 /* Pods-HelloToTheUniverse.debug.xcconfig */,
-				0CD1D56E37B7857AD5A6C3B6 /* Pods-HelloToTheUniverse.release.xcconfig */,
-				752E51E02D1D00F3D6B2E3E5 /* Pods-HelloToTheUniverseTests.debug.xcconfig */,
-				251978D1FD141542A31A4732 /* Pods-HelloToTheUniverseTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,12 +117,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B59BC911D6E243800DFE0AD /* Build configuration list for PBXNativeTarget "HelloToTheUniverse" */;
 			buildPhases = (
-				C3F6B83C3BA83DAAEFB7D30E /* [CP] Check Pods Manifest.lock */,
 				5B59BC701D6E243800DFE0AD /* Sources */,
 				5B59BC711D6E243800DFE0AD /* Frameworks */,
 				5B59BC721D6E243800DFE0AD /* Resources */,
-				E4A331761D21EF45AE9BAC5D /* [CP] Embed Pods Frameworks */,
-				67734CC69A3676169BB68492 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,12 +134,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B59BC941D6E243800DFE0AD /* Build configuration list for PBXNativeTarget "HelloToTheUniverseTests" */;
 			buildPhases = (
-				E0C82C49FE75A62D1E3C94B1 /* [CP] Check Pods Manifest.lock */,
 				5B59BC841D6E243800DFE0AD /* Sources */,
 				5B59BC851D6E243800DFE0AD /* Frameworks */,
 				5B59BC861D6E243800DFE0AD /* Resources */,
-				57E965EA213FF89F0DF0DD25 /* [CP] Embed Pods Frameworks */,
-				04A771F4751C0F68562D041F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,9 +160,11 @@
 				TargetAttributes = {
 					5B59BC731D6E243800DFE0AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					5B59BC871D6E243800DFE0AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 5B59BC731D6E243800DFE0AD;
 					};
 				};
@@ -235,99 +207,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		04A771F4751C0F68562D041F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloToTheUniverseTests/Pods-HelloToTheUniverseTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		57E965EA213FF89F0DF0DD25 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloToTheUniverseTests/Pods-HelloToTheUniverseTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67734CC69A3676169BB68492 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloToTheUniverse/Pods-HelloToTheUniverse-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C3F6B83C3BA83DAAEFB7D30E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E0C82C49FE75A62D1E3C94B1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E4A331761D21EF45AE9BAC5D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloToTheUniverse/Pods-HelloToTheUniverse-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B59BC701D6E243800DFE0AD /* Sources */ = {
@@ -464,50 +343,50 @@
 		};
 		5B59BC921D6E243800DFE0AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 041991C3B38FBFE70861BE00 /* Pods-HelloToTheUniverse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloToTheUniverse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5B59BC931D6E243800DFE0AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CD1D56E37B7857AD5A6C3B6 /* Pods-HelloToTheUniverse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloToTheUniverse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		5B59BC951D6E243800DFE0AD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 752E51E02D1D00F3D6B2E3E5 /* Pods-HelloToTheUniverseTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloToTheUniverseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloToTheUniverse.app/HelloToTheUniverse";
 			};
 			name = Debug;
 		};
 		5B59BC961D6E243800DFE0AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 251978D1FD141542A31A4732 /* Pods-HelloToTheUniverseTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = HelloToTheUniverseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloToTheUniverse.app/HelloToTheUniverse";
 			};
 			name = Release;
