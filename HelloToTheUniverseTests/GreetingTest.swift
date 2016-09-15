@@ -6,27 +6,22 @@
 //  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
-//import Quick
-//import Nimble
-//@testable import HelloToTheUniverse
-//
-//class GreetingTest: QuickSpec {
-//    override func spec() {
-//        
-//        describe("Greeting Class") {
-//            
-//            let testGreeting = Greeting()
-//            
-//            describe("helloUniverse()") {
-//                it("Should return back the string 'Hello Universe'") {
-//                    
-//                    let actualResponse = testGreeting.helloUniverse()
-//                    let expectedResponse = "Hello Universe!"
-//                    
-//                    expect(actualResponse).to(equal(expectedResponse))
-//                    
-//                }
-//            }
-//        }
-//    }
-//}
+  import QuickLook
+  import Nimble
+  @testable import HelloUniverse
+
+class GreetingSpec: QuickSpec {
+    override func spec()  {
+        let testGreeting = Greeting ()
+        
+        describe ("helloUniverse()") {
+            it(" Should take in no arguments and return a string. The string that should be returned is 'Hello Universe!'") {
+                   let expectedResponse = "Hello Universe!"
+                   let actualResponse = testGreeting.helloUniverse()
+            expect(expectedResponse).to(equal(actualResponse))
+        }
+      }
+    
+    }
+ }
+
