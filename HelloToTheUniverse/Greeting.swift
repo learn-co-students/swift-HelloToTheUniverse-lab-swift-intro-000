@@ -12,16 +12,10 @@ import Foundation
 
 class Greeting {
     
-    
-
     // We created the function for you!
     
     func helloUniverse() -> String {
         return "Hello Universe!"
     }
-    
-    
-    
-    
     
 }
