@@ -21,7 +21,7 @@
 //                it("Should return back the string 'Hello Universe'") {
 //                    
 //                    let actualResponse = testGreeting.helloUniverse()
-//                    let expectedResponse = "Hello Universe!"
+//                    let expectedResponse = "Hello Universe! How are you?"
 //                    
 //                    expect(actualResponse).to(equal(expectedResponse))
 //                    
