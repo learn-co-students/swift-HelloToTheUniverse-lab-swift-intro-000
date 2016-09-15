@@ -62,6 +62,18 @@ Once you're set up, watch the video below that explains how we go about solving 
 
 ## Instructions (video)
 
+**NOTE**: The video asks that you open the .xcworkspace file. Instead you need to open the .xcodeproj file. Why? After recording this video--I had updated this lab to work with Xcode 8 and Swift 3 and for this lab we no longer needed to have an .xcworkspace file.
+
+If the light's aren't turning green.
+
+* Make sure you forked the lab over to _your_ account before cloning
+* Make sure you have an SSH key setup property with Github (instructions above in the common issues section).
+* Make sure you're able to run the curl command above in terminal listed in the Setup Instructions
+* Make sure you're running Xcode 8
+* If after all of that you're unable to get the light to turn green, move forward to the next lesson and continue learning! Don't let that light hold you back from becoming a Swift Ninja
+
+![](https://media.giphy.com/media/ErdfMetILIMko/giphy.gif)
+
 If you prefer to read detailed instructions on how to complete this lab (instead of a video), you can find detailed instructions [here](https://github.com/learn-co-curriculum/swift-HelloToTheUniverse-lab/blob/master/Detail.md)
 
 [![](http://img.youtube.com/vi/TJ2QLLy4pH0/0.jpg)](https://www.youtube.com/watch?v=TJ2QLLy4pH0 "Intro")
