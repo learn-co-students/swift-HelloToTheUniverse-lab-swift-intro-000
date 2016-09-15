@@ -6,6 +6,17 @@
 > 
 > – [Theodore Roosevelt](https://en.wikipedia.org/wiki/Theodore_Roosevelt)
 
+# Common Issues
+
+* Make sure you have your SSH Key setup with GitHub. Here are some articles:  
+ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
+ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+* Make sure that you're forking the lab before cloning it down to your computer.
+* Make sure that you're on Xcode 8. You can update to the latest version in the Mac App Store.
+* If it states "No Module Quick", make sure you're pressing "command + u" which will build the tests.
+
+
+
 ## Course Overview 
 
 Let's talk first about how this course is organized. Every single piece of content on our platform is called a lesson. There are two types of lessons on Learn: Readings and Labs.
@@ -50,6 +61,18 @@ Once you're set up, watch the video below that explains how we go about solving 
 
 
 ## Instructions (video)
+
+**NOTE**: The video asks that you open the .xcworkspace file. Instead you need to open the .xcodeproj file. Why? After recording this video--I had updated this lab to work with Xcode 8 and Swift 3 and for this lab we no longer needed to have an .xcworkspace file.
+
+If the light's aren't turning green.
+
+* Make sure you forked the lab over to _your_ account before cloning
+* Make sure you have an SSH key setup property with Github (instructions above in the common issues section).
+* Make sure you're able to run the curl command above in terminal listed in the Setup Instructions
+* Make sure you're running Xcode 8
+* If after all of that you're unable to get the light to turn green, move forward to the next lesson and continue learning! Don't let that light hold you back from becoming a Swift Ninja
+
+![](https://media.giphy.com/media/ErdfMetILIMko/giphy.gif)
 
 If you prefer to read detailed instructions on how to complete this lab (instead of a video), you can find detailed instructions [here](https://github.com/learn-co-curriculum/swift-HelloToTheUniverse-lab/blob/master/Detail.md)
 
