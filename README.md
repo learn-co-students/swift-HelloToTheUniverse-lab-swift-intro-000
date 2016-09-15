@@ -6,6 +6,17 @@
 > 
 > – [Theodore Roosevelt](https://en.wikipedia.org/wiki/Theodore_Roosevelt)
 
+# Common Issues
+
+* Make sure you have your SSH Key setup with GitHub. Here are some articles:  
+ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
+ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+* Make sure that you're forking the lab before cloning it down to your computer.
+* Make sure that you're on Xcode 8. You can update to the latest version in the Mac App Store.
+* If it states "No Module Quick", make sure you're pressing "command + u" which will build the tests.
+
+
+
 ## Course Overview 
 
 Let's talk first about how this course is organized. Every single piece of content on our platform is called a lesson. There are two types of lessons on Learn: Readings and Labs.
