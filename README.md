@@ -2,9 +2,7 @@
 
 ![Theo](http://i.imgur.com/ZNL73LF.jpg)  
 
-> Keep your eyes on the stars, and your feet on the ground.
-> 
-> – [Theodore Roosevelt](https://en.wikipedia.org/wiki/Theodore_Roosevelt)
+> Keep your eyes on the stars, and your feet on the ground. – [Theodore Roosevelt](https://en.wikipedia.org/wiki/Theodore_Roosevelt)
 
 # Common Issues
 
