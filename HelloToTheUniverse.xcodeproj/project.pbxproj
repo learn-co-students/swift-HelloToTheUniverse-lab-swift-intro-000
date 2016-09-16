@@ -15,6 +15,8 @@
 		5B59BC8D1D6E243800DFE0AD /* HelloToTheUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC8C1D6E243800DFE0AD /* HelloToTheUniverseTests.swift */; };
 		5B59BC981D6E259300DFE0AD /* GreetingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC971D6E259300DFE0AD /* GreetingTest.swift */; };
 		5B59BC9A1D6E25EF00DFE0AD /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC991D6E25EF00DFE0AD /* Greeting.swift */; };
+		6B2A365F1D8C616C00386137 /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC991D6E25EF00DFE0AD /* Greeting.swift */; };
+		6B2A36601D8C617700386137 /* GreetingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC971D6E259300DFE0AD /* GreetingTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,7 +157,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Flatiron School";
 				TargetAttributes = {
 					5B59BC731D6E243800DFE0AD = {
@@ -215,6 +217,7 @@
 			files = (
 				5B59BC9A1D6E25EF00DFE0AD /* Greeting.swift in Sources */,
 				5B59BC7A1D6E243800DFE0AD /* ViewController.swift in Sources */,
+				6B2A36601D8C617700386137 /* GreetingTest.swift in Sources */,
 				5B59BC781D6E243800DFE0AD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2A365F1D8C616C00386137 /* Greeting.swift in Sources */,
 				5B59BC981D6E259300DFE0AD /* GreetingTest.swift in Sources */,
 				5B59BC8D1D6E243800DFE0AD /* HelloToTheUniverseTests.swift in Sources */,
 			);
@@ -272,8 +276,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -317,8 +323,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -337,6 +345,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
