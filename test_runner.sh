@@ -5,7 +5,6 @@ SERVICE_ENDPOINT='/e/flatiron_xcpretty'
 CURR_DIR="$2"
 NETRC=~/.netrc
 
-exec > /Users/JimCampagnoFIS/Desktop/Test/my_log_file.txt 2>&1
 
 if [ -f ${NETRC} ]; then
   if grep -q flatiron-push ${NETRC}; then
