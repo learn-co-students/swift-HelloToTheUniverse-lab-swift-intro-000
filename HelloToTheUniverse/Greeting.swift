@@ -16,6 +16,7 @@ class Greeting {
 
     // We created the function for you!
     
+    // Return String
     func helloUniverse() -> String {
         return "Hello Universe!"
     }
