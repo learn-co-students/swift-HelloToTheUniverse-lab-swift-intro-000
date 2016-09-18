@@ -17,7 +17,7 @@ class Greeting {
     // We created the function for you!
     
     func helloUniverse() -> String {
-        print("I can fly")
+        print("Buzz can fly too")
         return "Hello Universe!"
     }
     
