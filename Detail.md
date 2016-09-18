@@ -1,6 +1,6 @@
 # 1
 
-* Lets step through solving a lab together. Scroll to the top of the page like so:
+* Lets step through solving a lab together. Scroll to the top of the page like so. Note: This screenshot is slightly outdated, but that makes no difference! What we're concerned with is in the right panel that you see that you have three instructions ready for you.
 
 ![](http://i.imgur.com/55YJ1BY.png?1)
 
@@ -104,9 +104,9 @@
 ![dirin](https://s3.amazonaws.com/learn-verified/HelloUniverseTerm1.png)
 
 * There are a bunch of files, the same ones we were able to see when we first forked the lab.
-* We generally write our code in a few files. Here (in this example), we need to open the `HelloUniverse.xcworkspace` file. The lab should instruct you on what file to open (usually). If not, in general it's either going to be the `.xcodeproj` file or the `.xcworkspace` file.
+* We generally write our code in a few files. Here (in this example), we need to open the `HelloToTheUniverse.xcodeproj` file. The lab should instruct you on what file to open (usually). If not, in general it's either going to be the `.xcodeproj` file or the `.xcworkspace` file.
 
-* We want to begin by typing `open` in Terminal, followed by `HelloUniverse.xcworkspace`. Auto-complete is your friend. Don't forget when beginning to type Interface, you can hit the tab key to help complete it.
+* We want to begin by typing `open` in Terminal, followed by `HelloToTheUniverse.xcodeproj`. Auto-complete is your friend. Don't forget when beginning to type Interface, you can hit the tab key to help complete it.
 * Then hit return, it should open Xcode up for you.
 
 ![return](https://s3.amazonaws.com/learn-verified/HelloUniverseTerm2.png)
@@ -119,28 +119,28 @@
 
 ![Xcodeagain](https://s3.amazonaws.com/learn-verified/HelloUniverseXcode2.png)
 
-Where it states `// Implement your function here`, that is where you will be writing your code.  
-  
-Create a function called `helloUniverse()` that takes in no arguments and returns back a `String`. The `String` that should be returned is "Hello Universe!". 
+We've provided you with the answer here but you should add a print statement here like so:
 
-**Answer**: 
+`print("My name is Buzz and I can fly")`
+
+You can write whatever you want there, but I want you to create a print statement and add it to this `helloUniverse()` function. At the end of the day, your function should look like this:
 
 ```swift
 func helloUniverse() -> String {
-   return "Hello Universe!"
+    print("My name is Buzz and I can fly")
+        
+    return "Hello Universe!"
 }
 ```
 
-After pasting the answer into Xcode, it should look like this:
 
-![](http://i.imgur.com/d9Pmyci.png?1)
 
 
 We need to run the tests. You do that by pressing cmd + u. This will run the tests within Xcode. The tests written are checking to see that you implemented the `helloUniverse()` function correctly.
 
-To see the tests for yourself, locate the `GreetingTest.swift` file like so:
+To see the tests for yourself, locate the `HelloToTheUniverseTests.swift` file like so:
 
-Locate the `GreetingTest.swift` file in the Project navigator, like so:
+Locate the `HelloToTheUniverseTests.swift` file in the Project navigator, like so:
 
 ![](https://s3.amazonaws.com/learn-verified/HelloUniverseXcodeTests.png)
 
@@ -172,7 +172,7 @@ Now that we completed the lab, we need to submit a **Pull request**.
 * We need to now go through a series of steps. Add these files (to a staging area), commit these files and then push these files up to Github.
 * Adding. Type in `git add .` then hit return. This will add *all* the files changed here to this staging area.
 * Commiting. Now type in `git commit -m "Complete problems"` and hit return. You can commit your message and include a message alongside the commit. (The message always goes in quotation marks as you see in the above commit.) This way, you're tagging the list of changes you've made so that you can always go back and reference back your work.
-* Now type in `git push` or `git push master origin`. This will push up all these files that have been added and commited.
+* Now type in `git push` or `git push origin master`. This will push up all these files that have been added and committed.
 * Here is what those steps looks like:
 
 ![board](http://i.imgur.com/7qKkv4y.png?1)
@@ -185,7 +185,7 @@ Now that we completed the lab, we need to submit a **Pull request**.
 
 ![backhere](https://s3.amazonaws.com/learn-verified/HelloUniverseBackHome.png)
 
-* Towards the left-middle of the page, you should see a gray button labeled "New pull request". Click that button. You should be brought to a screen that looks like this:
+* Towards the left-middle of the page, you should see a gray button labeled "New pull request". Click that button. You should be brought to a screen that looks like this: (NOTE: This screenshot is slightly outdated in that it doesn't include my print statement stating that I'm Buzz and that I can fly!, on your screen it should show the print statement that you added, whatever that might be).
 
 
 ![buttonTap](http://i.imgur.com/rs9tSOz.png?1)
@@ -207,17 +207,4 @@ Now that we completed the lab, we need to submit a **Pull request**.
 
 ## Heading back to Learn (after submitting the lab)
 
-* You should see lovely green lights now in place of an empty circle on our liste of instructions.
-
-![joy](http://i.imgur.com/dN1P3vk.png?1)
-
-
-Note: There are some labs that include tests (the one we just completed included them). They might include an additional circle (that can be lit green) that states that you need to Pass The Tests. When the tests pass within Xcode, the appropriate circle (on learn) should light up green.
-
-* In order for Xcode to be able to communicate with Learn to let Learn know that the all of your tests passed when completing a lab, you need to type the following command in Terminal.
-
-`bash <(curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh)`
-
-* After running the command above in terminal, you should be met with a message that states "You're all set - setup complete!" after going through any necessary steps of it asking you any questions.
-
-![completeSetup](http://i.imgur.com/OBX76qT.png)
+* You should see lovely green lights now in place of an empty circle on our list of instructions. If you find that the lights aren't working, make sure you completed all of the instructions in the welcome reading which you can find [here](https://github.com/learn-co-curriculum/swift-welcome).
