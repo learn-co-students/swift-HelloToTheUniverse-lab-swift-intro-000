@@ -19,6 +19,7 @@ class HelloToTheUniverseTests: XCTestCase {
         super.tearDown()
     }
     
+    //func that test Greeting.swift
     func testHelloUniverse() {
         let testGreeting = Greeting()
         let actualResponse = testGreeting.helloUniverse()
