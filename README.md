@@ -47,7 +47,7 @@ If the light's aren't turning green.
 
 If you prefer to read detailed instructions on how to complete this lab (instead of a video), you can find detailed instructions [here](https://github.com/learn-co-curriculum/swift-HelloToTheUniverse-lab/blob/master/Detail.md)
 
-[![](http://img.youtube.com/vi/TJ2QLLy4pH0/0.jpg)](https://www.youtube.com/watch?v=TJ2QLLy4pH0 "Intro")
+[![](http://img.youtube.com/vi/1_yixHoYuhU/0.jpg)](https://www.youtube.com/watch?v=1_yixHoYuhU "Intro")
 
 
 
