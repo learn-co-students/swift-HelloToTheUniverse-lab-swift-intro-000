@@ -8,7 +8,7 @@
 
 **Make sure that you went through all instructions in the Welcome Reading which can be found [here]( https://github.com/learn-co-curriculum/swift-welcome) before proceeding with this lesson, otherwise your lights will not work!**
 
-It's important that you fork the lab over to your person GitHub account (instructions to do this are below) before you clone down the lab to your machine!
+It's important that you fork the lab over to your personal GitHub account (instructions below in video) before you clone down the lab to your machine!
 
 Make sure you're running the latest version of Xcode, which is Xcode 8.0.
 
@@ -34,20 +34,21 @@ Readings are lessons that only have instructional content. They provide context 
 
 # Instructions (video)
 
-**NOTE**: The video asks that you open the .xcworkspace file. Instead you need to open the .xcodeproj file. Why? After recording this video--I had updated this lab to work with Xcode 8 and Swift 3 and for this lab we no longer needed to have an .xcworkspace file. As well the test file is now different then what the video and detailed instructions show--but that's fine, that won't change anything!
+If you prefer to read detailed instructions on how to complete this lab (instead of a video), you can find detailed instructions [here](https://github.com/learn-co-curriculum/swift-HelloToTheUniverse-lab/blob/master/Detail.md)
 
-If the light's aren't turning green.
+[![](http://img.youtube.com/vi/1_yixHoYuhU/0.jpg)](https://www.youtube.com/watch?v=1_yixHoYuhU "Intro")
+
+# If the light's aren't turning green.
 
 * Make sure you forked the lab over to _your_ account before cloning
 * Make sure you have an SSH key setup property with Github (instructions above in the common issues section).
 * Make sure you're running Xcode 8
+* Run this command in Terminal, be prepared to type in your github username  
+`bash <(curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh)`
+* Re-fork the lab and run the tests again (instructions to do that can be found [here](https://youtu.be/CsMDUFyyiNI))
 * If after all of that you're unable to get the light to turn green, move forward to the next lesson and continue learning! Don't let that light hold you back from becoming a Swift Ninja
 
 ![](https://media.giphy.com/media/ErdfMetILIMko/giphy.gif)
-
-If you prefer to read detailed instructions on how to complete this lab (instead of a video), you can find detailed instructions [here](https://github.com/learn-co-curriculum/swift-HelloToTheUniverse-lab/blob/master/Detail.md)
-
-[![](http://img.youtube.com/vi/1_yixHoYuhU/0.jpg)](https://www.youtube.com/watch?v=1_yixHoYuhU "Intro")
 
 
 
