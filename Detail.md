@@ -1,6 +1,6 @@
 # 1
 
-* Lets step through solving a lab together. Scroll to the top of the page like so. Note: This screenshot is slightly outdated, but that makes no difference! What we're concerned with is in the right panel that you see that you have three instructions ready for you.
+* Let's step through solving a lab together. Scroll to the top of the page like so. Note: This screenshot is slightly outdated, but that makes no difference! What we're concerned with is in the right panel that you see that you have three instructions ready for you.
 
 ![](http://i.imgur.com/55YJ1BY.png?1)
 
@@ -29,13 +29,13 @@
 
 ![ForkTap](https://s3.amazonaws.com/learn-verified/HelloUniverseFork.png)
 
-* Sticking with our analogy, we want to take back a copy of this exam (lab) back to our desk. That is what Github is asking us now, which desk? We want to bring it back to our desk, so click your account here. My account here is the upper left one.
+* Sticking with our analogy, we want to take a copy of this exam (lab) back to our desk. GitHub is now asking us: Which desk? Click your GitHub account. In this image, my account is in the upper left.
 
-* As soon as you tap your account here, you should be presented with the following screen. It might come and go VERY fast (where you barely see it), but this is what it looks like:
+* As soon as you tap your account you should be presented with the following screen. It might come and go VERY fast (where you barely see it), but this is what it looks like:
 
 ![Loading](https://s3.amazonaws.com/learn-verified/HelloUniverseClone.png)
 
-* It's got a picture of a fork, a book and a photocopy machine, Github is also using our analogy!. Here, we are forking (or creating a copy) of the repository (lab) and having our own version of this repository (lab) on our account.
+* It's got a picture of a fork, a book and a photocopy machine, Github is also using our analogy!. Here, we are forking (or creating a copy of) the repository (lab) and storing our own version of this repository (lab) in our account.
 
 * When that is complete, we should be brought to a screen that looks like this :
 
