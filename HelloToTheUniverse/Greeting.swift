@@ -17,6 +17,7 @@ class Greeting {
     // We created the function for you!
     
     func helloUniverse() -> String {
+        print("hi")
         return "Hello Universe!"
     }
     
