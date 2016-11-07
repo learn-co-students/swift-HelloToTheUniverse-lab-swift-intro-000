@@ -20,7 +20,6 @@ class HelloToTheUniverseTests: XCTestCase {
     }
     
     func testHelloUniverse() {
-        (print ("hello everyone watching this."))
         let testGreeting = Greeting()
         let actualResponse = testGreeting.helloUniverse()
         let expectedResponse = "Hello Universe!"
