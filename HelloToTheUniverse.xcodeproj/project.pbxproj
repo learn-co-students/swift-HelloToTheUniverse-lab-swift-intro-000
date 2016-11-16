@@ -14,6 +14,7 @@
 		5B59BC821D6E243800DFE0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B59BC801D6E243800DFE0AD /* LaunchScreen.storyboard */; };
 		5B59BC8D1D6E243800DFE0AD /* HelloToTheUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC8C1D6E243800DFE0AD /* HelloToTheUniverseTests.swift */; };
 		5B59BC9A1D6E25EF00DFE0AD /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC991D6E25EF00DFE0AD /* Greeting.swift */; };
+		6CA256311DDD0EE400079B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC771D6E243800DFE0AD /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA256311DDD0EE400079B55 /* AppDelegate.swift in Sources */,
 				5B59BC8D1D6E243800DFE0AD /* HelloToTheUniverseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
