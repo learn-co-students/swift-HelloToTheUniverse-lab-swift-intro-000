@@ -16,7 +16,7 @@ class Greeting {
     
     func helloUniverse() -> String {
         
-        print("Hello, this is Jon's commit")
+        print("Hello, this is Jon's commit!")
         
         return "Hello Universe!"
     }
