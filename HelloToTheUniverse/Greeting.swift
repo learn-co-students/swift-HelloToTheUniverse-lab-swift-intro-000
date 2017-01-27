@@ -19,4 +19,7 @@ class Greeting {
     }
     
 }
+
+
+var message = "Hello"
    
