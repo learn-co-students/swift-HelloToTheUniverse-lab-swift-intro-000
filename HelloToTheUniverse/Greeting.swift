@@ -19,4 +19,9 @@ class Greeting {
     }
     
 }
-   
+
+func helloUniverse() -> String {
+    print("My name is Nancy and I can fly")
+
+    return "Hello Universe!"
+}
