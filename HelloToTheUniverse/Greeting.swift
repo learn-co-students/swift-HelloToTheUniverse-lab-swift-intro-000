@@ -12,16 +12,16 @@ import Foundation
 
 class Greeting {
     
+    // We created the function for you! Press command + u to run the tests.
     
-
-    // We created the function for you!
-    
-    func helloUniverse() -> String {
+    func helloUniverse() -> String {        
         return "Hello Universe!"
     }
     
+}
+   
+func helloUniverse() -> String {
+    print("My name is Buzz and I can fly")
     
-    
-    
-    
+    return "Hello Universe!"
 }
