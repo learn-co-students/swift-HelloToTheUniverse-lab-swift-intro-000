@@ -1,6 +1,0 @@
-framework module Pods_HelloToTheUniverse {
-  umbrella header "Pods-HelloToTheUniverse-umbrella.h"
-
-  export *
-  module * { export * }
-}
