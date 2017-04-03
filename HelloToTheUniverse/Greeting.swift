@@ -2,7 +2,7 @@
 //  Greeting.swift
 //  HelloToTheUniverse
 //
-//  Created by James Campagno on 8/24/16.
+//  Created by James Campagno on 8/24/16. Chuck Underwood
 //  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
