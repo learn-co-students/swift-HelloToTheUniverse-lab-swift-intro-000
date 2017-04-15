@@ -12,8 +12,8 @@
 		5B59BC7D1D6E243800DFE0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B59BC7B1D6E243800DFE0AD /* Main.storyboard */; };
 		5B59BC7F1D6E243800DFE0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B59BC7E1D6E243800DFE0AD /* Assets.xcassets */; };
 		5B59BC821D6E243800DFE0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B59BC801D6E243800DFE0AD /* LaunchScreen.storyboard */; };
-		5B59BC8D1D6E243800DFE0AD /* HelloToTheUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC8C1D6E243800DFE0AD /* HelloToTheUniverseTests.swift */; };
 		5B59BC9A1D6E25EF00DFE0AD /* Greeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC991D6E25EF00DFE0AD /* Greeting.swift */; };
+		8309258D1EA1C5480087B247 /* HelloToTheUniverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B59BC8C1D6E243800DFE0AD /* HelloToTheUniverseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B59BC8D1D6E243800DFE0AD /* HelloToTheUniverseTests.swift in Sources */,
+				8309258D1EA1C5480087B247 /* HelloToTheUniverseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
