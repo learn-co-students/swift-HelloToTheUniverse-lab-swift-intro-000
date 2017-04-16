@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E00D0E0E7192FFAD17E5EDA35EE370AC1A29B3EA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E00D0E0E7192FFAD17E5EDA35EE370AC1A29B3EA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F1D874D7-BBC6-469C-8D88-9302CCE53FF2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E00D0E0E7192FFAD17E5EDA35EE370AC1A29B3EA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloToTheUniverse",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloToTheUniverse\/HelloToTheUniverse.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/loeff066\/swift-HelloToTheUniverse-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E00D0E0E7192FFAD17E5EDA35EE370AC1A29B3EA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/loeff066\/swift-HelloToTheUniverse-lab-swift-intro-000.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E00D0E0E7192FFAD17E5EDA35EE370AC1A29B3EA"
+    }
+  ]
+}
