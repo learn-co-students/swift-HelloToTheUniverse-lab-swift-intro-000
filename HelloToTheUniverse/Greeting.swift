@@ -12,9 +12,11 @@ import Foundation
 
 class Greeting {
     
-    // We created the function for you! Press command + u to run the tests.
     
-    func helloUniverse() -> String {        
+    
+    func helloUniverse() -> String {
+        print("My name is TJ_Schoost and I'm the best")
+        
         return "Hello Universe!"
     }
     
