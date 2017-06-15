@@ -16,7 +16,7 @@ class Greeting {
     
     func helloUniverse() -> String {
         print(helloUniverse)
-        return "Hello Big Universe!"
+        return "Hello Universe!"
     }
     
 }
