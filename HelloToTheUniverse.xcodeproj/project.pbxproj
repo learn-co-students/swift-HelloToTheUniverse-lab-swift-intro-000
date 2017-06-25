@@ -37,7 +37,7 @@
 		5B59BC881D6E243800DFE0AD /* HelloToTheUniverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloToTheUniverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B59BC8C1D6E243800DFE0AD /* HelloToTheUniverseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloToTheUniverseTests.swift; sourceTree = "<group>"; };
 		5B59BC8E1D6E243800DFE0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B59BC991D6E25EF00DFE0AD /* Greeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Greeting.swift; sourceTree = "<group>"; };
+		5B59BC991D6E25EF00DFE0AD /* Greeting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Greeting.swift; path = "/Users/rjarquin88/Desktop/swift-HelloToTheUniverse-lab-swift-intro-000/HelloToTheUniverse/Greeting.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
