@@ -22,6 +22,7 @@ class HelloToTheUniverseTests: XCTestCase {
     func testHelloUniverse() {
         let testGreeting = Greeting()
         let actualResponse = testGreeting.helloUniverse()
+        print ("Hello People")
         let expectedResponse = "Hello Universe!"
         
         XCTAssertEqual(expectedResponse, actualResponse)
