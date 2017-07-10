@@ -16,6 +16,7 @@ class Greeting {
     
     func helloUniverse() -> String {        
         print("My name is Foo and I am funky")
+        print("... and a little confused about the Local Test")
 
         return "Hello Universe!"
     }
