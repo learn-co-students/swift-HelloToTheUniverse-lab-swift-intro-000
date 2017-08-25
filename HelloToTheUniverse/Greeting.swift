@@ -16,7 +16,5 @@ class Greeting {
     
     func helloUniverse() -> String {        
         return "Hello Universe!"
-    }
-    
-}
+        print "The correct phrase is Hello World" } }
    
