@@ -14,6 +14,9 @@ class Greeting {
     
     // We created the function for you! Press command + u to run the tests.
     
+    var favoriteCharacter = "Daenerys Targaryen"
+    let ultimateFavoriteCharacter = "Margaery Tyrell"
+    
     func helloUniverse() -> String {
         print("Learning Swift...")
         return "Hello Universe!"
