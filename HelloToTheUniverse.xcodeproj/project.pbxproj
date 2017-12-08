@@ -165,10 +165,12 @@
 				TargetAttributes = {
 					5B59BC731D6E243800DFE0AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SJ3RVF55M7;
 						LastSwiftMigration = 0800;
 					};
 					5B59BC871D6E243800DFE0AD = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SJ3RVF55M7;
 						LastSwiftMigration = 0800;
 						TestTargetID = 5B59BC731D6E243800DFE0AD;
 					};
@@ -349,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJ3RVF55M7;
 				INFOPLIST_FILE = HelloToTheUniverse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverse;
@@ -361,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SJ3RVF55M7;
 				INFOPLIST_FILE = HelloToTheUniverse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverse;
@@ -373,6 +377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SJ3RVF55M7;
 				INFOPLIST_FILE = HelloToTheUniverseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverseTests;
@@ -386,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SJ3RVF55M7;
 				INFOPLIST_FILE = HelloToTheUniverseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.HelloToTheUniverseTests;
