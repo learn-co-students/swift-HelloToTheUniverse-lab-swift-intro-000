@@ -13,6 +13,7 @@ import Foundation
 class Greeting {
     
     // We created the function for you! Press command + u to run the tests.
+    print("Hello World!")
     
     func helloUniverse() -> String {        
         return "Hello Universe!"
