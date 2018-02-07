@@ -14,9 +14,12 @@ class Greeting {
     
     // We created the function for you! Press command + u to run the tests.
     
-    func helloUniverse() -> String {        
+    func helloUniverse() -> String {
+        print("Does video state whether we are to change anything in order to submit this first one?")
         return "Hello Universe!"
     }
     
 }
    
+
+
