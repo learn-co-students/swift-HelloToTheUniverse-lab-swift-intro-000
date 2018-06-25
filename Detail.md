@@ -80,7 +80,7 @@
 
 * You should see some commands being run in Terminal at this point. Afterwards you should see the following:
 
-![thing](http://i.imgur.com/vcCsqOV.png?1)
+![thing](http://i.imgur.com/open?1)
 
 * If you see something similar to what is displayed in the screenshot above, we have succesfully cloned down the repository to our computer. We can begin working!
 
@@ -125,13 +125,7 @@ We've provided you with the answer here but you should add a print statement her
 
 You can write whatever you want there, but I want you to create a print statement and add it to this `helloUniverse()` function. At the end of the day, your function should look like this:
 
-```swift
-func helloUniverse() -> String {
-    print("My name is Buzz and I can fly")
-        
-    return "Hello Universe!"
-}
-```
+g
 
 
 
