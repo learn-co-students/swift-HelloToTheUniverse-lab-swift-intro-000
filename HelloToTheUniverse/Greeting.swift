@@ -14,7 +14,8 @@ class Greeting {
     
     // We created the function for you! Press command + u to run the tests.
     
-    func helloUniverse() -> String {        
+    func helloUniverse() -> String {
+        print("Man if I had a dollar for every time a programming tutorial started with a Hello World function..")
         return "Hello Universe!"
     }
     
