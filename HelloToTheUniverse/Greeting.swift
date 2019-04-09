@@ -14,9 +14,24 @@ class Greeting {
     
     // We created the function for you! Press command + u to run the tests.
     
-    func helloUniverse() -> String {        
+    func helloUniverse() -> String {
+        
+        print ("Hello World!")
         return "Hello Universe!"
+    
     }
     
+    func variablesandConstants() {
+        //variables
+        var favoriteCharacter = "The Punisher"
+        favoriteCharacter = "Batman"
+        
+        print (favoriteCharacter)
+        
+        //constants
+        let favChar = "Frank Castle"
+        
+        print(favChar)
+    }
 }
    
