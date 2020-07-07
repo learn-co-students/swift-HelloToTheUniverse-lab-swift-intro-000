@@ -42,7 +42,7 @@ workflows:
   build-test-adhoc:
     jobs:
       - build-and-test
-      - adhoc:
+      - beta:
           filters:
             branches:
               only: development
