@@ -45,6 +45,15 @@
             </ActionContent>
          </ExecutionAction>
       </PostActions>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5B59BC731D6E243800DFE0AD"
+            BuildableName = "HelloToTheUniverse.app"
+            BlueprintName = "HelloToTheUniverse"
+            ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -56,18 +65,17 @@
                ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "33D9182324B50AFC00BBB110"
+               BuildableName = "HelloToTheUniverseUITests.xctest"
+               BlueprintName = "HelloToTheUniverseUITests"
+               ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5B59BC731D6E243800DFE0AD"
-            BuildableName = "HelloToTheUniverse.app"
-            BlueprintName = "HelloToTheUniverse"
-            ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -89,8 +97,6 @@
             ReferencedContainer = "container:HelloToTheUniverse.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
