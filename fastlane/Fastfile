@@ -16,11 +16,19 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Generate new localized screenshots"
-  lane :screenshots do
-    capture_screenshots(scheme: "HelloToTheUniverseUITests")
+   before_all do
+    setup_circle_ci
   end
-  lane :tests do
-  run_tests(scheme: "HelloToTheUniverseTests")
-end
+
+  desc "Runs all the tests"
+  lane :test do
+    scan
+    snapshot
+  end
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
+    match(type: "appstore")
+    gym(export_method: "app-store")
+  end
 end
