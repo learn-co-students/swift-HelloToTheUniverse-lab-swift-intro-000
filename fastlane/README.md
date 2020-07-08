@@ -12,15 +12,22 @@ Install _fastlane_ using
 ```
 [sudo] gem install fastlane -NV
 ```
-or alternatively using `brew install fastlane`
+or alternatively using `brew cask install fastlane`
 
 # Available Actions
 ## iOS
-### ios upload_testflight
+### ios test
 ```
-fastlane ios upload_testflight
+fastlane ios test
 ```
-Upload to Testflight
+Runs all the tests
+### ios beta
+```
+fastlane ios beta
+```
+Submit a new Beta Build to Apple TestFlight
+
+This will also make sure the profile is up to date
 
 ----
 

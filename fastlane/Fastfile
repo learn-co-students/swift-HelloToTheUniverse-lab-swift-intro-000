@@ -1,28 +1,34 @@
-default_platform :ios
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
 
 platform :ios do
-  before_all do
+   before_all do
     setup_circle_ci
   end
 
-  desc "Upload to Testflight"
-  lane :upload_testflight do
-    # Get the version number from the project and check against
-    # the latest build already available on TestFlight, then
-    # increase the build number by 1. If no build is available
-    # for that version, then start at 1
-   build_number = latest_testflight_build_number + 1 # Get build number
-    increment_build_number_in_plist({                          # Increment build number
-        build_number: build_number.to_s
-    })      
-    # Set up Distribution code signing and build the app
+  desc "Runs all the tests"
+  lane :test do
+    scan
+    snapshot
+  end
+  desc "Submit a new Beta Build to Apple TestFlight"
+  desc "This will also make sure the profile is up to date"
+  lane :beta do
     match(type: "appstore")
-    gym()
-    # Upload the binary to TestFlight and automatically publish
-    # to the configured beta testing group
-    pilot(
-      distribute_external: true,
-      notify_external_testers: true
-    )
+    gym(export_method: "app-store")
   end
 end
